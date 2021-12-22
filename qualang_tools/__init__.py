@@ -12,8 +12,12 @@ from qualang_tools.config.integration_weights_tools import (
     plot_integration_weights,
 )
 from qualang_tools.simulator_tools import create_simulator_controller_connections
+from qualang_tools.config.waveform_tools import *
+
 
 __all__ = [
+    "drag_gaussian_pulse_waveforms",
+    "drag_cosine_pulse_waveforms",
     "baking",
     "XEB",
     "c1_ops",
