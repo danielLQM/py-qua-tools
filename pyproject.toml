@@ -30,9 +30,16 @@ dash-core-components = "^2.0.0"
 dash-bootstrap-components = "^1.0.0"
 dash-cytoscape = "^0.3.0"
 dash-table = "^5.0.0"
-docutils = "^0.18.1"
+docutils = "0.17.1" #set to 0.17.1 because sphinx does not work with 0.18.x GW
 dash-dangerously-set-inner-html = "^0.0.2"
 waitress = "^2.0.0"
+Sphinx = "^4.3.2"
+sphinx-autodoc-typehints = "^1.12.0"
+m2r2 = "^0.3.2"
+nbsphinx = "^0.8.7"
+sphinx-copybutton = "^0.4.0"
+pydata-sphinx-theme = "^0.7.2"
+sphinx-rtd-theme = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

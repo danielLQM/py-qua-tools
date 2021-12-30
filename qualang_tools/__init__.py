@@ -15,6 +15,7 @@ from qualang_tools.simulator_tools import create_simulator_controller_connection
 
 __all__ = [
     "baking",
+    "config",
     "XEB",
     "c1_ops",
     "RBOneQubit",
